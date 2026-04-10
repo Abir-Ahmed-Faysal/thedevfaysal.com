@@ -1,0 +1,44 @@
+# All bots
+User-agent: *
+Allow: /
+Disallow: /api
+Disallow: /.next
+Disallow: /private/
+Allow: /images/
+Allow: /fonts/
+
+# Specific crawl delays
+Crawl-delay: 1
+
+# Yandex
+User-agent: Yandex
+Allow: /
+Disallow: /api
+Disallow: /.next
+
+# Bing
+User-agent: Bingbot
+Allow: /
+Disallow: /api
+Disallow: /.next
+Crawl-delay: 1
+
+# Google
+User-agent: Googlebot
+Allow: /
+Disallow: /api
+Disallow: /.next
+Crawl-delay: 0
+
+# DuckDuckGo
+User-agent: DuckDuckBot
+Allow: /
+Disallow: /api
+
+# Archive.org
+User-agent: ia_archiver
+Allow: /
+
+# Sitemaps
+Sitemap: https://thedevfaysal.com/sitemap.xml
+Sitemap: https://thedevfaysal.com/sitemap-projects.xml
